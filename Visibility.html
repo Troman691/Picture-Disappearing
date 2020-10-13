@@ -1,0 +1,24 @@
+<html>
+<head>
+  <tittle>Visibility</tittle>
+  <link rel = "stylesheet" href = "Visibility.css">
+<script>
+function disappear()
+{
+  document.getElementById("Image").style.visibility = "hidden";
+}
+function reappear()
+{
+  document.getElementById("Image").style.visibility = "visible";
+}
+</script>
+<style>
+</style>
+</head>
+
+<body>
+  <img src = "Loading cat.jpg" id = "Image">
+  <input type = "button" value = "Hide" onclick = "disappear()">
+  <input type = "button" value = "Reveal" onclick = "reappear()">
+</body>
+</html>
